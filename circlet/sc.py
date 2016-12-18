@@ -6,7 +6,7 @@ import pytz
 import six
 
 def say(what):
-    return "{what}".format(what=what)
+    return "Hey, listen: {what}.".format(what=what)
 
 if __name__ == '__main__':
     print datetime.datetime.now()
