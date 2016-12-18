@@ -1,0 +1,9 @@
+version: '2'
+services:
+  test:
+    build: .
+    volumes:
+      - .:/home/root/
+  py:
+    image: "python:2.7"
+    command: python -c "print 'hola'"
